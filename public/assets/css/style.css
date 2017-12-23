@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: whitesmoke;
+}
+
+.commentHolder {
+    height: 150px;
+    overflow: scroll;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    background-color: lightblue;
+}
+
+.article {
+    background-color: palegoldenrod;
+
+}
+
+.center {
+    margin: auto;
+}
