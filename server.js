@@ -38,7 +38,7 @@ let scraped = {};
 
 app.get("/scrape", function (req, res) {
 
-  request("https://www.nytimes.com/section/politics?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Politics&WT.nav=page", function (error, response, html) {
+  request("https://www.nytimes.com/section/sports?action=click&pgtype=Homepage&region=TopBar&module=HPMiniNav&contentCollection=Sports&WT.nav=page", function (error, response, html) {
     const $ = cheerio.load(html);
 
     $(".story-link").each(function (i, element) {
